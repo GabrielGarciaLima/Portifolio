@@ -1,0 +1,108 @@
+/*Reset básico*/
+* {
+    margin: 0; /*Define margem zero*/
+    padding: 0; /*Define preenchimento zero*/
+    box-sizing: border-box; /*Define o modelo de caixa como border-box*/
+}
+
+/*Estilo global para o corpo da página*/
+body {
+    font-family: 'Arial', sans-serif; /*Define a fonte e fonte genérica para o corpo do documento*/
+    background-color: #f9f9f9; /*Define a cor de fundo*/
+    color: #333; /*Define a cor do texto*/
+    margin: 0; /*Define margem zero*/
+    padding: 0; /*Define preenchimento zero*/
+    font-size: 16px; /*Define o tamanho da fonte*/
+}
+
+/*Estilo para cabeçalhos*/
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif; /*Define a fonte e fonte genérica para cabeçalhos*/
+    font-weight: bold; /*Define negrito*/
+}
+
+h1 {
+    font-size: 36px; /*Define o tamanho da fonte*/
+    color: #007bff; /*Define a cor do texto*/
+    margin-bottom: 20px; /*Define margem inferior*/
+    text-align: center; /*Alinha o texto ao centro*/
+    text-transform: uppercase; /*Converte o texto para maiúsculas*/
+}
+
+h2 {
+    font-size: 28px; /*Define o tamanho da fonte*/
+    color: #333; /*Define a cor do texto*/
+    margin-bottom: 15px; /*Define margem inferior*/
+}
+
+h3 {
+    font-size: 24px; /*Define o tamanho da fonte*/
+    color: #333; /*Define a cor do texto*/
+    margin-bottom: 15px; /*Define margem inferior*/
+}
+
+/*Estilo para links*/
+a {
+    color: #007bff; /*Define a cor do link*/
+    text-decoration: none; /*Remove a decoração de texto*/
+    transition: color 0.3s ease-in-out; /*Adiciona uma transição suave para a cor do texto*/
+}
+
+a:hover {
+    color: #0056b3; /*Define a cor do texto ao passar o mouse sobre o link*/
+}
+
+/*Estilo para listas não ordenadas*/
+ul {
+    list-style-type: none; /*Remove os marcadores de lista*/
+}
+
+/*Estilo para itens de lista*/
+li {
+    margin-bottom: 10px; /*Define margem inferior*/
+}
+
+/*Estilo para parágrafos*/
+p {
+    margin-bottom: 15px; /*Define margem inferior*/
+}
+
+/*Estilo para link de contato*/
+.contact-section {
+    background-color: #007bff; /*Define a cor de fundo*/
+    color: white; /*Define a cor do texto*/
+    padding: 50px 0; /*Define preenchimento superior e inferior*/
+    text-align: center; /*Alinha o texto ao centro*/
+}
+
+/*Estilo para formulários*/
+.form-group {
+    margin-bottom: 20px; /*Define margem inferior*/
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%; /*Define largura*/
+    padding: 15px; /*Define preenchimento*/
+    font-size: 16px; /*Define o tamanho da fonte*/
+    border: 2px solid #007bff; /*Define a borda*/
+    border-radius: 5px; /*Define a borda arredondada*/
+    margin-bottom: 10px; /*Define margem inferior*/
+    box-sizing: border-box; /*Mantém o modelo de caixa como border-box*/
+}
+
+.form-group input[type="submit"] {
+    background-color: #007bff; /*Define a cor de fundo*/
+    color: white; /*Define a cor do texto*/
+    border: none; /*Remove a borda*/
+    border-radius: 5px; /*Define a borda arredondada*/
+    cursor: pointer; /*Define o cursor do mouse como ponteiro*/
+    padding: 15px 30px; /*Define o preenchimento*/
+    font-size: 16px; /*Define o tamanho da fonte*/
+    transition: background-color 0.3s ease-in-out; /*Adiciona uma transição suave para a cor de fundo*/
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3; /*Define a cor de fundo ao passar o mouse sobre o botão*/
+}
